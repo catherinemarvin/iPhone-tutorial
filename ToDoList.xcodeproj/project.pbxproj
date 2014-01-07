@@ -19,6 +19,7 @@
 		6E3AE991187CC535001ADF91 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E3AE979187CC535001ADF91 /* UIKit.framework */; };
 		6E3AE999187CC535001ADF91 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6E3AE997187CC535001ADF91 /* InfoPlist.strings */; };
 		6E3AE99B187CC535001ADF91 /* ToDoListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3AE99A187CC535001ADF91 /* ToDoListTests.m */; };
+		6E3AE9A5187CC659001ADF91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E3AE9A4187CC659001ADF91 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		6E3AE996187CC535001ADF91 /* ToDoListTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ToDoListTests-Info.plist"; sourceTree = "<group>"; };
 		6E3AE998187CC535001ADF91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6E3AE99A187CC535001ADF91 /* ToDoListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoListTests.m; sourceTree = "<group>"; };
+		6E3AE9A4187CC659001ADF91 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 			children = (
 				6E3AE984187CC535001ADF91 /* XYZAppDelegate.h */,
 				6E3AE985187CC535001ADF91 /* XYZAppDelegate.m */,
+				6E3AE9A4187CC659001ADF91 /* Main.storyboard */,
 				6E3AE987187CC535001ADF91 /* Images.xcassets */,
 				6E3AE97C187CC535001ADF91 /* Supporting Files */,
 			);
@@ -219,6 +222,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E3AE9A5187CC659001ADF91 /* Main.storyboard in Resources */,
 				6E3AE980187CC535001ADF91 /* InfoPlist.strings in Resources */,
 				6E3AE988187CC535001ADF91 /* Images.xcassets in Resources */,
 			);
